@@ -1,0 +1,225 @@
+* {
+    background-color: transparent !important;
+    box-sizing: border-box !important;
+    
+}
+
+.main {
+    margin-bottom: 50px !important;
+    background-color: transparent !important;
+    width: 80vw !important;
+    height: % !important;
+    box-shadow: 4px 4px 8px #000 !important;
+    border-radius: 14px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;    
+    margin-bottom: 5vw !important;
+    margin-top: 5vh;
+    padding-bottom: 3vw !important;
+    background: linear-gradient(135deg, LavenderBlush 40%, LightCyan) !important;   
+}
+
+.kits {
+    display: grid !important;
+    justify-content: center !important;
+ /*    background: linear-gradient(135deg, LavenderBlush 95%, LightCyan) !important; */
+}
+
+
+.kits-ttl {
+    display: flex !important;
+    justify-content: center;
+    margin: 2vw 0 0 0 !important;
+    padding-top: 0vw !important;
+    font-size: 6vw !important;
+    color: #BC8F8F !important;
+    text-shadow: 2px 2px 2px #F5DEB3 !important;
+
+}
+
+.p-main {
+    display: flex !important;
+    justify-content: center;
+    margin: 0 !important;
+    font-size: 2vw !important;
+    color: #6495ED !important;
+    width: 80vw !important;
+    padding: none !important;
+}
+
+
+
+
+.figuras-kits {
+    display: flex !important;
+    width: 35vw !important;
+    border: 1px solid red;
+    justify-content: space-between !important;
+    background-color: transparent !important;
+
+}
+
+
+.produtos-img {
+    width: 10vw !important;
+    border-radius:  0.7vh !important;
+    position: relative !important;
+    box-shadow: 0.01vw 0.01vw 0.1vw #000 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.produtos-img:hover {
+    box-shadow: 0.1vw 0.1vw 0.3vw #000 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.label-produto {
+    position: absolute !important;
+    display: flex !important;
+    justify-content: space-around !important;
+    width: 10vw !important;
+    font-size: 1.13vw !important;
+    font-weight: bold !important;
+    padding-top: 0.65px !important;
+    
+}
+
+.icones-produtos {
+    display: flex !important;
+    justify-content: space-around !important;
+    margin: 0;
+}
+
+
+#imagemProduto.kit-img {
+    display: flex !important;
+    justify-content: left !important;
+    width: 20vw !important;
+    margin: 1vw !important;
+}
+
+.desc-produto {
+    width: 45vw !important;
+    margin:  0 2vw 0 2vw!important;
+    padding: 0vw !important;
+    
+   
+}
+
+.card-prod {
+    display: flex !important;
+    justify-content: space-between !important;
+    width: 70vw !important;
+    align-items: center;
+    margin: 3vw auto !important;
+    background-color: #fff !important;
+    border-radius: 3vw  !important;
+    box-shadow: 2px 2px 4px #000;
+}
+
+.itens{
+    display: block  !important;
+}
+
+
+.desc {
+    display: inline !important;
+    width: 40vw !important;
+}
+
+.botao-main {
+    display: flex;
+    margin: 1vw 0 .5vw 25vw !important;   
+    height: auto !important;
+    padding: 16px 32px;
+    background: linear-gradient(#42d7f5, #f5b0d2);
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    color: var(--cor-p5);
+    font: 600 1.000rem/1.35 "Poppins", sans-serif;
+    max-width: max-content;
+    border: none;
+    cursor: pointer;
+
+}
+
+
+.sobre {
+    display: flex !important;
+    justify-content: column !important;
+}
+
+
+
+
+
+@media screen and (max-width:576px) {
+
+    
+.main {
+    margin-bottom: 120vw !important;
+
+  
+}
+
+    .container-main {
+        margin: 0 !important;
+        width: 80vw !important;
+        height: 80vw !important;
+        border: 1px solid red;
+        background-color: transparent !important;
+
+    }
+
+    .figuras-kits {
+        display: grid !important;
+        justify-content: column !important;
+        align-items: center;
+        margin: 1vw auto !important;
+        width: 80vw !important;
+        height: auto !important;
+        background-color: transparent !important;
+    }
+
+    .img-thumbnail {
+    display: flex !important;
+    justify-content: center !important;
+    flex-grow: 1 !important;
+    flex-basis: 300px !important;
+    margin: 0vw auto !important;
+    padding: 10px !important;
+    width: 65vw !important;
+    height: auto !important;
+    max-width: none !important;
+}
+
+
+
+
+.container-produtos {
+    display: flex !important;
+    margin: 2vw auto 3vw !important;
+    padding: 5vw !important;
+    border-radius: 1.955671447196871vh !important;
+    background-image: url('/images/background/bg-1.png') !important;
+    box-shadow: 4px 4px 8px #000 !important;
+    
+}
+
+.container-card {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    max-width: none !important;
+    background-color: transparent !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 1px solid black !important;
+    width: 1vw !important;
+    height: 1vw !important;
+    
+}
+
+}

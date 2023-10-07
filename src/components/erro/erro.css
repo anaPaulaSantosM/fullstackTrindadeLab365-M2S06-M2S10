@@ -1,0 +1,16 @@
+.erro {
+        display: grid;
+    justify-content: center;
+}
+.logo-erro {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 3vw auto 0 auto;
+    width: 10vw;
+
+}
+
+.texto-erro {
+    margin: 0 auto 5vw auto;
+}

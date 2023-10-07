@@ -1,0 +1,182 @@
+:root {
+    --black: #000;
+    --text-1: #fff;
+    --text-2: #b2b2b2;
+    --btn-background-color-1: #FBB803;
+    --btn-color-1: #000;
+    --cor-0: #ffffff;
+    --cor-1: #f7f7f7;
+    --cor-2: #ededed;
+    --cor-3: #dedede;
+    --cor-4: #cccccc;
+    --cor-5: #b2b2b2;
+    --cor-6: #9c9c9c;
+    --cor-7: #717171;
+    --cor-8: #595959;
+    --cor-9: #404040;
+    --cor-10: #2e2e2e;
+    --cor-11: #111111;
+    --cor-12: #000000;
+    --cor-p1: #ffbb00;
+    --cor-p2: #42d7f5;
+    --cor-p3: #a66f00;
+    --cor-p4: #664400;
+    --cor-p5: #332200;
+
+}
+
+
+
+
+
+.contato-container {
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    margin: 24px auto 24px auto !important;
+    padding: 0;
+    background-color: 
+}
+
+.contato-formulario {
+    display: block;
+    background: linear-gradient(135deg, LavenderBlush 50%, LightCyan) !important;
+ 
+}
+
+.dados {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.contato-dados {
+    display: block;
+    justify-content: center;
+    margin-left: 2vw;
+    width: 380px;
+    border-radius: 5px 0 0 5px;
+    background: var(--cor-12) url(../../img/dec/bottom-left.svg) no-repeat bottom 20px left 20px;
+    padding: 00px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    
+}
+
+.contato-dados h2 {
+    margin-bottom: 60px;
+}
+
+
+.contato-endereco {
+    width: 100%;
+    margin-bottom: 32px;
+    padding-left: 28px;
+    background: url(../../img/icones/local.svg) no-repeat 0px 2px;
+}
+
+
+.contato-redes {
+    display: flex;
+    gap: 32px;
+    padding-left: 28px;
+    margin-top: 36px;
+}
+
+.contato-formulario {
+    display: block;
+    justify-content: center;
+    margin: 0 30px 0 0 ;
+    width: 800px;
+    border-radius: 0 5px 5px 0;
+    background: var(--cor-0) url(../../img/dec/bottom-right.svg) no-repeat bottom 20px right 20px;
+}
+
+.contato-dados, .contato-formulario {
+    padding: 60px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+/* label {
+    cursor: default;
+} */
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.form input[type="text"], .form input[type="email"], .form textarea {
+    font: 400 1rem/1.5 "Roboto", sans-serif;
+    background: var(--text-1);
+    border: 1px solid var(--cor-3);
+    padding: 12px;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    margin: 12px 0 12px 0;
+}
+
+.input2 {
+    display: grid;
+    justify-content: column;
+    width: 100%;
+    font: 400 1rem/1.5 "Roboto", sans-serif;
+    background: var(--text-1);
+    border: 1px solid var(--cor-3);
+    padding: 12px;
+    border-radius: 4px;
+    margin: 12px 0 12px 0;
+}
+
+.input3 {
+    display: grid;
+    justify-content: column;
+    width: 100%;
+    font: 400 1rem/1.5 "Roboto", sans-serif;
+    background: var(--text-1);
+    border: 1px solid var(--cor-3);
+    padding: 12px;
+    border-radius: 4px;
+    margin: 12px 0 12px 0;
+}
+
+.input-short {
+    display: grid;
+    justify-content: inline-block;
+}
+
+.input-long {
+    display: block;
+    width: 100%;
+}
+
+.input-line {
+    display: block;
+}
+
+
+.form .col-2 {
+    grid-column: span 2;
+}
+
+.botao-form {
+    display: flex;
+    margin: 0 auto;    
+    padding: 16px 32px;
+    background: linear-gradient(#42d7f5, #f5b0d2);
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    color: var(--cor-p5);
+    font: 600 1.000rem/1.35 "Poppins", sans-serif;
+    max-width: max-content;
+    border: none;
+    cursor: pointer;
+    margin-top: 24px;
+}
+
+.input-form, .input-email, .input3 {
+    background-color: #fff !important;
+}
